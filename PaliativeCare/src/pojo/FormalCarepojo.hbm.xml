@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 1 Apr, 2016 3:29:45 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="pojo.FormalCarepojo" table="formalcare" catalog="paliative">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        
+        <property name="ccord" type="string">
+            <column name="ccord" length="2000" not-null="true" />
+        </property>        
+        <property name="ocman" type="string">
+            <column name="ocman" length="2000" not-null="true" />
+        </property>
+        <property name="pcare" type="string">
+            <column name="pcare" length="2000" not-null="true"/>
+        </property>
+        <property name="mspec" type="string">
+            <column name="mspec" length="2000" not-null="true" />
+        </property>
+        <property name="hcare" type="string">
+            <column name="hcare" length="2000" not-null="true" />
+        </property>
+        <property name="psupport" type="string">
+            <column name="psupport" length="2000" not-null="true" />
+        </property>
+        <property name="therapist" type="string">
+            <column name="therapist" length="2000" not-null="true" />
+        </property>
+        <property name="pharm" type="string">
+            <column name="oharm" length="2000" not-null="true" />
+        </property>
+        <property name="assistliv" type="string">
+            <column name="assistliv" length="2000" not-null="true" />
+        </property>
+        <property name="daypro" type="string">
+            <column name="daypro" length="2000" not-null="true" />
+        </property>
+        <property name="ohcpro" type="string">
+            <column name="ohcpro" length="2000" not-null="true" />
+        </property>     
+        <property name="oserv" type="string">
+            <column name="oserv" length="2000" not-null="true" />
+        </property>
+        <property name="orespitecare" type="string">
+            <column name="orespitecare" length="2000" not-null="true" />
+        </property>
+        <property name="pallcare" type="string">
+            <column name="pallcare" length="2000" not-null="true" />
+        </property>
+        <property name="ltermcare" type="string">
+            <column name="ltermcare" length="2000" not-null="true" />
+        </property>
+        <property name="uccentre" type="string">
+            <column name="uccentre" length="2000" not-null="true" />
+        </property>   
+        <property name="lab" type="string">
+            <column name="lab" length="2000" not-null="true" />
+        </property>
+        <property name="medins" type="string">
+            <column name="medins" length="2000" not-null="true" />
+        </property>
+        <property name="privpcare" type="string">
+            <column name="privpcare" length="2000" not-null="true" />
+        </property>      
+    </class>
+</hibernate-mapping>
